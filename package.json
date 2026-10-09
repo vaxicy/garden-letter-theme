@@ -1,0 +1,46 @@
+{
+  "name": "garden-letter-theme",
+  "displayName": "Garden Letter Theme",
+  "description": "Muted slate blue, sage leaves and pressed-flower pink in coordinated light and dark themes.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "garden",
+    "sage",
+    "pastel",
+    "vintage"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#2B3238",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/garden-letter-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Garden Letter Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/garden-letter-light-color-theme.json"
+      },
+      {
+        "label": "Garden Letter Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/garden-letter-dark-color-theme.json"
+      }
+    ]
+  }
+}
